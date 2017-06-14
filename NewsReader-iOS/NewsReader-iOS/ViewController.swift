@@ -91,7 +91,7 @@ class ViewController: UIViewController ,UITableViewDataSource ,UITableViewDelega
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         // セルの高さを設定
-        return 64
+        return 50
     }
     
     func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
